@@ -1,19 +1,20 @@
 .bg {
     background-size: 100% 100%;
     width: 100%;
-    height: 900px;
+    height: 800px;
     background-size: 100%;
-	background-image: linear-gradient(180deg, red, blue);
+	background-image: linear-gradient(180deg, rgb(192, 255, 208), rgb(43, 46, 94));
 }
-.form-container {
-    position: absolute;
-    top: 150px;
-    background: #fff;
-    padding: 30px;
+
+.form-login {
+	margin-top: 150px;
+	background-color: #fff;
+	padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 4px 0px black; 
     width: 400px;
 }
+
 .agree{
 	padding-left: 20px;
 }
@@ -24,4 +25,51 @@
 
 .form-check-link:hover {
 	text-decoration: none;
+}
+
+.login-or {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.login-or__1 {
+	width: 100%;
+	background-color: #dbdbdb;
+	height: 1px;
+	flex: 1;
+}
+
+.login-or__heading {
+	color: #ccc;
+	padding: 0 16px;
+}
+
+.login-app {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-icon {
+	color: #fff;
+}
+
+.btn-face,
+.btn-google {
+	background-color: #1877f2;
+}
+
+.btn-apple {
+	background-color: #000;
+}
+
+.btn-apple,
+.btn-face,
+.btn-google {
+	min-width: 100px;
+}
+
+.login-app__content {
+	color: #fff;
+	padding: 0 5px;
 }
