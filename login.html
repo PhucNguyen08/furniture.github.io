@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style7.css">
+    <title>Login</title>
+	<script>
+		function check() {
+			var x = document.forms["myform"]["fname"].value;
+			var y = document.forms["myform"]["femail"].value;
+			var z = document.forms["myform"]["fpassword"].value;
+			if(x == "" ) {
+				alert("Bạn chưa nhập tên");
+				return false;
+			}
+			if((x[0]<='a' || x[0]>='z') && (x[0]<='A' || x[0]>='Z')) {
+				alert("Chữ cái đầu phải bắt đầu bằng chữ cái");
+				return false;
+			}
+			for(var i=0; i<x.length; i++) {
+				if(x[i] == ' ') {
+					alert("username không được chứa dấu cách");
+					return false;
+				}
+			}
+			if(x.length <= 5){
+				alert("user phải >= 5 ký tự");
+				return false;
+			}
+			if(y == "") {
+				alert("Bạn chưa nhập email");
+				return false;
+			}
+			if(z == "") {
+				alert("Bạn chưa nhập mật khẩu");
+				return false;
+			}
+			if(z.length < 8) {
+				alert("Mật khẩu quá ngắn < 8");
+				return false;
+			}
+		}
+	</script>
+       
+</head>
+<body>
+<div class="container-fluid bg">
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-9 col-md-6 col-lg-3">
+			<form class="form-container" action=""  name=
+			"myform" method="post">
+				<div class="mb-3 f-name">
+				    <label for="fname" class="form-label">Username:</label>
+				    <input type="text" class="form-control" name="fname" placeholder="Your Name">
+				</div>
+				<div class="mb-3 f-email">
+				    <label for="email" class="form-label">Email:</label>
+				    <input type="email" class="form-control" name="femail" aria-describedby="emailHelp" id="email" placeholder="Example@email.com">
+				    <div id="emailHelp" class="form-text" >
+				</div>
+			  	<div class="mb-3 f-password">
+				    <label for="Password" class="form-label">Password:</label>
+				    <input type="password" class="form-control" name="fpassword" id="password" placeholder="****">
+			  	</div>
+			  	<div class="mb-3 agree">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+				    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+					<a href="" class="form-check-link">Quên mật khẩu?</a>
+				</div>   
+				<button type="submit" class="btn btn-primary btn-block" value="Submit" >Đăng Nhập</button>
+			</form>
+		</div>
+	</div>
+</div>								
+	
+</body>
+</html>

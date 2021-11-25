@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURNITURE – MultiPurpose WooCommerce WordPress Theme</title>
+    <link rel="icon" href="./assets/image/img1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="top-header">
+                <div class="grid wide">
+                    <div class="topheader v-center">
+                        <div class="topheader__left v-center">
+                            <ul class="topheader__left__list v-center">
+                                <li class="topheader__left__item switch-language">
+                                    <div class="select-language">
+                                        <img src="./assets/image/vn.jpg" alt="en"> 
+                                        <span class="select-language-title">Việt Nam</span>
+                                    </div>
+                                    <ul class="language__list">
+                                        <li class="language__item">
+                                            <img src="./assets/image/en.jpg" alt="en"> 
+                                            <span class="language__item-title">English</span>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="topheader__left__item switch-currency">
+                                    <div class="select-currency">
+                                        VND
+                                    </div>
+                                    <ul class="currency__list">
+                                        <li class="currency__item">
+                                            VND
+                                        </li>
+                                       
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topheader__right v-center">
+                            <div class="icon__mobile">
+                                <i class="fas fa-anchor"></i>
+                            </div>
+                            <ul class="topheader__right__list v-center">
+                                <li class="topheader__right__item">
+                                    <a href="" class="topheader__link"><i class="fa fa-user"></i> Tài khoản</a>
+                                </li>
+                                <li class="topheader__right__item">
+                                    <a href="" class="topheader__link"><i class="fa fa-heart"></i> Yêu thích</a>
+                                </li>
+                                <li class="topheader__right__item">
+                                    <a href="" class="topheader__link"><i class="fa fa-check-square"></i> Thanh toán</a>
+                                </li>
+                                <li class="topheader__right__item">
+                                    <a href="login.html" class="topheader__link"><i class="fa fa-key"></i> Đăng nhập</a>
+                                </li>
+                                <li class="topheader__right__item">
+                                    <button class="topheader__btn js-btn"><i class="fas fa-archway"></i> Đăng Ký</button> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-header">
+                <div class="grid wide">
+                    <div class="row botheader">
+                        <div class="botheader__brand col xlg-3 lg-3 md-3 sm-12 xsm-12">
+                            <a href="index.html">
+                                <img src="./assets/image/fur1.png" alt="FURNITURE">
+                            </a>
+                        </div>
+                        <div class="col xlg-9 lg-9 md-9 sm-12 xsm-12">
+                            <div class="last-header">
+                                <div class="row">
+                                    <div class="col xlg-4 lg-4 md-4">
+                                        <div class="sns-icon-box v-center">
+                                            <div class="sns-icon-right-content">
+                                                <h4>MIỄN PHÍ GIAO HÀNG</h4>
+                                                <span>Đối với đơn hàng trên 5 triệu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col xlg-4 lg-4 md-4">
+                                        <div class="sns-icon-box v-center">
+                                            <div class="sns-icon-right-content">
+                                                <h4>GIẢM GIÁ TỚI 20%</h4>
+                                                <span>Đối với các mặt hàng tồn kho</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col xlg-4 lg-4 md-4">
+                                        <div class="sns-icon-box v-center">
+                                            <div class="sns-icon-right-content">
+                                                <h4>Mua 1 tặng 1</h4>
+                                                <span>Đối với các mặt hàng có giá dưới 1 triệu</span>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="grid wide">
+                    <div class="header__menu__container v-center">
+                        <div class="list-icon__mobile">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <ul class="sub-menu v-center hide-on-low-PC-mobile-tablet">
+                            <li class="sub-menu__item sub-menu__item--active">
+                                <a href="index.html" class="sub-menu__item__link">HOME</a>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">ĐỒ NỘI THẤT</a>
+                                
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="page.html" class="sub-menu__item__link">BÀN COFFEE</a>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">GHẾ SOFA</a>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">NỘI THẤT PHÒNG NGỦ</a>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        </div> 
+                    </div>
+                </div>
+        </header>
+        <div class="container">
+            <div class="grid wide">
+                <div class="products">
+                    <ul class="product-lists v-center">
+                        <li class="product-item">
+                            <a href="index.html" class="product-list__link">Trang chủ </a>
+                            <span>/</span>
+                        </li>
+                        <li class="product-item">
+                            <a href="/" class="product-list__link">Bàn cà phê Gonzales </a>
+                            <span>/</span>
+                        </li>
+                        <li class="product-item">
+                            <a href="/" class="product-list__link">Chi tiết sản phẩm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="products">
+                    <div class="product-info app-container">
+                        <div class="row">
+                            <div class="col xlg-5 lg-5 md-5 sm-12 xsm-12">
+                                <div class="product-info-left">
+                                    <img src="./assets/image/ghe2.jpg" alt="ghế tựa êm" class="product-info__img">
+                                </div>
+                            </div>
+                            <div class="col xlg-7 lg-7 md-7 sm-12 xsm-12">
+                                <div class="product-info-content">
+                                    <h3 class="product-info-content__heading">GHẾ TỰA ÊM</h3>
+                                    <div class="product-info__code v-center">
+                                        <span class="product-info__code-title">Mã sản phẩm: 29130423</span>
+                                        <span class="product-info__code-stock">Tình trạng: </span>
+                                        <span class="product-info__code-still">Còn hàng</span>
+                                    </div>
+                                    <div class="product-info__price v-center">
+                                        <span class="product-info__price-title">Giá: </span>
+                                        <span class="product-info__price-new">1.700.000 ₫</span>
+                                        <span class="product-info__price-tab">|</span>
+                                        <span class="product-info__price-old">3.000.000 ₫</span>
+                                        <span class="product-info__price-sale">Giảm 40%</span>
+                                        <span class="product-info__price-vat">(Chưa bao gồm VAT)</span>
+                                    </div>
+                                    <div class="product-info-comment v-center">
+                                        <span class="product-info__evaluate">4.5</span>
+                                        <span class="product-info__icon">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </span>
+                                        <span class="product-info__num">(3)</span>
+                                    </div>
+                                    <div class="product-info__promotion">Khuyến mãi đặc biệt tặng kèm một bộ trang trí tường khi mua 2 bộ ghế trở lên</div>
+                                    <div class="product-info__source">
+                                        <div class="product-source">
+                                            <span class="product-info__size">Kích thước</span>
+                                            <span>:</span>
+                                            <span class="product-info__size-num">70x50cm</span>
+                                        </div>
+                                        <div class="product-source">
+                                            <span class="product-info__size">Màu sắc</span>
+                                            <span>:</span>
+                                            <span class="product-info__size-num">Xanh</span>
+                                        </div>
+                                        <div class="product-source">
+                                            <span class="product-info__size">Chất liệu</span>
+                                            <span>:</span>
+                                            <span class="product-info__size-num">Lông Nhung</span>
+                                        </div>
+                                        <div class="product-source">
+                                            <span class="product-info__size">Quy cách</span>
+                                            <span>:</span>
+                                            <span class="product-info__size-num">1 ghế</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-info__content">
+                                        <p>Ghế tựa có 3 lớp chính. Trong cùng là khung trục kim loại, tạo hình dáng cho ghế, có khóa , khớp để ghế có thể gập các góc độ. Lớp giữa là mút để ngăn giữa lớp khung kim loại và tạo độ êm cho ghế Lớp ngoài là vỏ ghế , chất nhung mịn, có thể tháo ra để giặt được. 
+                                        </p>
+                                    </div>
+                                    <div class="product-info__btn">
+                                        <button class="btn-sub">-</button>
+                                        <input type="text" name="number" id="number" value="1">
+                                        <button class="btn-add">+</button>
+                                        <button class="product-info__btn-add">Thêm vào giỏ</button>
+                                    </div>
+                                    <div class="product-info__share">
+                                        <a title="Chia sẻ lên Facebook" href="" class="product-info_link">
+                                            <i class="product-info__link-icon fab fa-facebook"></i>
+                                        </a>
+                                        <a title="Chia sẻ lên Instagram" href="" class="product-info_link">
+                                            <i class="product-info__link-icon fab fa-instagram"></i>
+                                        </a>
+                                        <a title="Chia sẻ lên Linkedin" href="" class="product-info_link">
+                                            <i class="product-info__link-icon fab fa-linkedin"></i>
+                                        </a>
+                                        <a title="Chia sẻ lên Youtube" href="" class="product-info_link">
+                                            <i class="product-info__link-icon fab fa-youtube"></i>
+                                        </a>
+                                        <a title="Chia sẻ lên Google" href="" class="product-info_link">
+                                            <i class="product-info__link-icon fab fa-google"></i>
+                                        </a>
+                                    </div>
+                                    <div class="product-info__tag">
+                                        <i class="product-info__tag-icon fas fa-tags"></i>
+                                        <a href="" class="product-info__tag-title">Ghế tựa</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="products-details">
+                        <h3 class="products-heading">Chi tiết sản phẩm</h3>
+                        <div class="products-content">
+                            <p class="products-content__title">Chất liệu vỏ ngoài nhung lạnh Nhật Bản tạo cảm giác mềm mại.
+                                Ghế phù hợp cho người hay bị mỏi lưng, mỏi cổ, và đặc biệt là bà bầu hoặc phụ nữ hay phải trông con.</p>
+                            <img src="./assets/image/ghe2.jpg" alt="ghế tựa êm" class="products-content__img">
+                            <div class="products-content-bottom">
+                                <p>FURNITURE - Chuỗi showroom ngoại thất nhập khẩu hàng đầu Việt Nam</p>
+                                <p>Sản phẩm nhập khẩu 100%, được tuyển chọn kỹ càng</p>
+                                <p>Cam kết sản phẩm như hình ảnh quảng cáo</p>
+                                <p>Miễn phí vận chuyển lắp đặt tận nơi tại nội thành HN và HCM bán kính 20km</p>
+                                <p>Chế độ bảo hành 2 năm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="advers-images">
+                        <div class="row">
+                            <div class="advers-images__1 col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                                <a href="" class="advers-images__wrapper img-effect-hover-1">
+                                    <img src="./assets/image/img12.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="advers-images__2 col xlg-3 lg-3 md-3 sm-6 xsm-o-1 xsm-10">
+                                <a href="" class="advers-images__wrapper img-effect-hover-2">
+                                    <img src="./assets/image/img13.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="advers-images__3 col xlg-3 lg-3 md-3 sm-6 xsm-o-1 xsm-10">
+                                <a href="" class="advers-images__wrapper img-effect-hover-3">
+                                    <img src="./assets/image/img14.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category">
+                            <h3 class="footer-category-title">Liên hệ </h3>
+                                <ul class="footer-category-list">
+                                    <li class="footer-category-item">
+                                        <p class="footer-category-text">9 Ô Chợ Dừa,Đống Đa,Hà Nội</p>
+                                    </li>
+                                    <li class="footer-category-item">
+                                        <a href="" class="footer-category-link__phone">
+                                            <p class="footer-category__phone">+84 96 237 8888</p>
+                                        </a>
+                                        <a href="" class="footer-category-link__phone">
+                                            <p class="footer-category__phone">+84 96 999 9999</p>
+                                        </a>
+                                    </li>
+                                    <li class="footer-category-item">
+                                        <a href="" class="footer-category-link__mail">
+                                            <p class="footer-category__mail">cskh@simen.com</p>
+                                        </a>
+                                        <a href="" class="footer-category-link__mail">
+                                            <p class="footer-category__mail">info@simen.com</p>
+                                        </a>
+                                    </li>
+                                </ul>        
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category">
+                            <h3 class="footer-category-title">Dịch vụ</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Giá cả & Tiền tệ</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Thanh Toán Visa</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Chuyển phát nhanh</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Hoàn trả và đổi hàng</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">FAQ’s</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category">
+                            <h3 class="footer-category-title">Tài khoản</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Tài khoản của tôi</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Danh sách đơn hàng</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Lịch sử đặt hàng</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Simen xu</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Voucher đặc biệt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category">
+                            <h3 class="footer-category-title">Thông tin</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Mặt hàng sale</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Sản phẩm nổi bật</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Đánh giá của tôi</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Đã xem gần đây</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Đã thích</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category">
+                            <h3 class="footer-category-title">Tin tức</h3>
+                            <div class="footer-category-content">
+                                <span class="register-text">Nhận bản tin của FURNITURE</span>
+                                <form action="">
+                                    <input type="email" placeholder="Your email here" id="" required>
+                                    <button>Đăng Ký</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category footer-category-height">
+                            <h3 class="footer-category-title">Về FURNITURE</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Giới thiệu công ty</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Tuyển dụng</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Điều khoản</a>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category footer-category-height">
+                            <h3 class="footer-category-title">Chăm sóc khách hàng</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Hướng dẫn mua hàng</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Chính sách vận chuyển</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category footer-category-height">
+                            <h3 class="footer-category-title">Danh mục</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Đồ nội thất</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Bàn cà phê</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Nội thất phòng ngủ</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">Ghế sofa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category footer-category-height">
+                            <h3 class="footer-category-title">Vào bằng ứng dụng</h3>
+                            <div class="footer-category-download">
+                                <div class="footer-category__qr">
+                                    <a href="" class="footer-category__qr-link">
+                                        <img src="./assets/image/qr_code.png" alt="qr" class="footer-category__qr-img">
+                                    </a>
+                                </div>
+                                <div class="footer-category__apps">
+                                    <a href="" class="footer-category__apps-link">
+                                        <img src="./assets/image/app_store.png" alt="" class="footer-category__apps-img">
+                                    </a>
+                                    <a href="" class="footer-category__apps-link">
+                                        <img src="./assets/image/google_play.png" alt="" class="footer-category__apps-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer-category footer-category-height">
+                            <h3 class="footer-category-title">Theo dõi</h3>
+                            <ul class="footer-category-list">
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">
+                                        <i class="footer-category__icon fab fa-facebook"></i>
+                                        Facebook</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">
+                                        <i class="footer-category__icon fab fa-instagram"></i>
+                                        Instagram</a>    
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">
+                                        <i class="footer-category__icon fab fa-linkedin"></i>
+                                        Linkedin</a>
+                                </li>
+                                <li class="footer-category-item">
+                                    <a href="" class="footer-category__link">
+                                        <i class="footer-category__icon fab fa-twitter-square"></i>
+                                        Twitter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <div class="grid wide">
+                    <div class="last-footer__content v-center">
+                        <span>© 2015 Ecommerce software by Wordpress™ Designed by FURNITURE.Com</span>
+                        <img src="./assets/image/logo7.png" alt="Visa">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="form-modal js-modal" id="form-modal">
+        <div class="form-modal-container js-form-modal-container" id="form-container">
+            <div class="form-modal-close js-form-modal-close" id="form-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <header class="form-modal__heading">
+                <h3>Create Account</h3>
+            </header>
+
+            <form action="">
+                <div class="form-modal__content">
+                    <div class="form-modal__label">
+                        <label for="" class="modal__label">Tên đăng nhập:</label>
+                        <input type="text" name="" id="name"  placeholder="Your Name" required>
+                    </div>
+                    <div class="form-modal__label">
+                        <label for="" class="modal__label">Email của bạn:</label>
+                        <input type="email" name="" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-modal__label">
+                        <label for="" class="modal__label">Mật khẩu:</label>
+                        <input type="password" name="" id="password" placeholder="Password" required>
+                        <div class="form-modal__pass-eye">
+                            <i class="form-modal__pass-icon fas fa-eye"></i>
+                        </div>  
+                    </div>
+                    <div class="form-modal__label">
+                        <label for="" class="modal__label">Nhập lại mật khẩu:</label>
+                        <input type="password" name="" id="repeatpass" placeholder="Repeat Your Password" required>     
+                    </div>
+                    <div class="form-modal__label form-label">
+                        <input type="checkbox" name="" id="agree" required>
+                        <span class="form-modal__label-agree">Tôi đồng ý với</span>
+                        <a href="" class="form-modal__label-link">Điều khoản</a>
+                    </div>
+                    <div class="form-modal__label">
+                        <!-- <input type="text" name="signup" id="signup" value="Đăng Ký"> -->
+                        <button class="signup">Đăng ký</button>
+                    </div>
+                </div>
+            </form>
+
+            <footer class="form-modal__footer">
+                <p>Đã có tài khoản? </p>
+                <a href="">Đăng nhập tại đây</a>
+            </footer>
+        </div>
+    </div>
+    <button class="back-to-top show"><i class="fa fa-angle-up"></i></button>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/backToTop.js"></script>
+    <script src="./assets/js/form.js"></script>
+</body>
+
+</html>
